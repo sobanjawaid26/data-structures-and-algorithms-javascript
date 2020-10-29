@@ -11,6 +11,7 @@ class BinarySearchTree {
       this.root = null;
   }
   insert(value){
+      //console.log('this ============>  ',this);
       var newNode = new Node(value);
       if(this.root === null){
           this.root = newNode;
@@ -43,12 +44,19 @@ class BinarySearchTree {
 
 var tree = new BinarySearchTree();
 tree.insert(10)
+console.log('tree ===========> ',tree)
 tree.insert(5)
+console.log('tree ===========> ',tree)
 tree.insert(13)
+console.log('tree ===========> ',tree)
 tree.insert(11)
+console.log('tree ===========> ',tree)
 tree.insert(2)
+console.log('tree ===========> ',tree)
 tree.insert(16)
+console.log('tree ===========> ',tree)
 tree.insert(7)
+console.log('tree ===========> ',tree)
 
 
 
